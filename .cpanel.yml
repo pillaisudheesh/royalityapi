@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/sddvszst/api.royalitytravels.com/dist
+    - export DEPLOYPATH=/home3/sddvszst/royalityapi/dist
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
     - /bin/cp -R ./dist $DEPLOYPATH
