@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home3/sddvszst/royalityapi/dist
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
-    - /bin/cp -R ./dist $DEPLOYPATH
+    - /bin/cp -R dist/. $DEPLOYPATH
