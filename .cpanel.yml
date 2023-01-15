@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home3/sddvszst/api.royalitytravels.com/
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
-    - /bin/cp -R build/. $DEPLOYPATH
+    - /bin/cp -R dist/. $DEPLOYPATH
